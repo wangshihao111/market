@@ -1,0 +1,23 @@
+.universal-message-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  .icon {
+    font-size: 20px !important;
+  }
+  .badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    border-radius: 50%;
+    font-size: 8px;
+    background: #f00;
+    color: #fff;
+  }
+}

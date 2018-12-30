@@ -13,5 +13,6 @@
   .nav-wrapper {
     flex: 0 0 $tabHeight;
     margin-bottom: 5px;
+    overflow: hidden;
   }
 }

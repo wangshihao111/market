@@ -9,6 +9,7 @@ import SearchPage from "./pages/search-page/search-page";
 import NotFound from "./components/not-found/not-found";
 import TabsNav from "./components/tabs-nav/tabs-nav";
 import CategoryPage from "./pages/category-page/category-page";
+import MessagePage from "./pages/message-page/message-page";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path={'/user'} component={UserPage}/>
             <Route path={'/discover'} component={DiscoverPage}/>
             <Route path={'/shop-cart'} component={ShopCartPage}/>
+            <Route path={'/message'} component={MessagePage}/>
             <Redirect from={'/'} to={'/home'}/>
             <Route component={NotFound}/>
           </Switch>

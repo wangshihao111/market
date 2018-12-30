@@ -10,6 +10,7 @@
     "@babel/plugin-transform-react-jsx-self": "^7.2.0",
     "@babel/plugin-transform-react-jsx-source": "^7.2.0",
     "@svgr/webpack": "2.4.1",
+    "axios": "^0.18.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
@@ -19,6 +20,7 @@
     "bfj": "6.1.1",
     "case-sensitive-paths-webpack-plugin": "2.1.2",
     "chalk": "2.4.1",
+    "core-decorators": "^0.20.0",
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
@@ -72,10 +74,10 @@
     "extends": "react-app"
   },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
+    "last 100 version",
+    "> 100%",
+    "maintained node versions",
+    "not dead"
   ],
   "jest": {
     "collectCoverageFrom": [

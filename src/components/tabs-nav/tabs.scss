@@ -1,3 +1,5 @@
+@import "../../assets/style/mixin.scss";
+
 .tabs-component {
   display: flex;
   flex-direction: row;
@@ -6,15 +8,23 @@
   width: 100%;
   height: 100%;
   text-align: center;
+  @include border-1px(#ccc, top);
+  & {
+    position: relative;
+  }
   .tab-item {
+    margin-top: 5px;
     flex: 1;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 14px;
+    transition: all .5s;
     .icon {
       font-size: 20px;
     }
   }
+
   .active {
+    transform: scale(1.05);
     color: #ff2244;
   }
 }

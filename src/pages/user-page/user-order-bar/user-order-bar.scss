@@ -1,0 +1,12 @@
+.user-order-bar {
+  width: 90%;
+  padding: 0 5%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  .item {
+    color: #f00;
+  }
+}
